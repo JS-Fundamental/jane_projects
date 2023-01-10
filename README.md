@@ -1,1 +1,1 @@
-** Yana Yefimenko Projects **
+**Yana Yefimenko Projects**
