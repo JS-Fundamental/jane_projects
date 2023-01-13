@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+header {
+  background: #cecaff;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 15px;
+  box-shadow: rgb(0 0 0 / 14%) -2px 2px 8px;
+  transition: 0.3s;
+  display: block;
+}
+
+a:hover {
+  background-color: #7772ff;
+  color: #fff;
+  box-shadow: rgb(0 0 0 / 14%) 0px 5px 8px;
+  border: 1px solid #7772ff;
+  font-size: 1.05rem;
+}
+
+/* Task`s Style */
+
+.container {
+  margin: 3rem auto;
+  width: fit-content;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  padding: 5rem;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.25rem;
+  align-self: flex-start;
+  color: #7f7e7e;
+}
+
+.layout {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.layout h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.layout input,
+#btn {
+  border: none;
+  outline: none;
+  display: block;
+}
+
+.layout input {
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  width: 250px;
+  font-size: 1.75rem;
+  margin-left: 0.5rem;
+}
+
+#btn {
+  padding: 1rem;
+  background: #7772ff;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 1.25rem;
+  transition: 0.3s;
+  align-self: flex-end;
+}
+
+#btn:hover {
+  box-shadow: rgb(0 0 0 / 14%) 0px 5px 8px;
+}
+
+.note {
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
