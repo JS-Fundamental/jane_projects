@@ -1,0 +1,16 @@
+.box,
+.addItem {
+  padding-left: 50px;
+}
+.box > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#userInput {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}

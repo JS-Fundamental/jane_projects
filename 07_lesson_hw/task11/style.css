@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  display: none;
+}
+
+.container.active {
+  display: block;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 450px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  margin: 0 auto;
+}
+
+/* Full-width input fields */
+input {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  background: #f1f1f1;
+}
+
+input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.carousel {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 250px;
+}
+.image {
+  align-items: center;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  max-width: 316px;
+  width: 100%;
+}
+.image img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.text-wrapper {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 4rem;
+}
+
+.text-wrapper p {
+  text-align: left;
+}
+.text-wrapper h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
